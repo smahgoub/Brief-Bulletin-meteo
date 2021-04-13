@@ -1,0 +1,42 @@
+h1 {
+    text-align: center;
+    background-color: darkorange;
+    padding: 1rem;
+}
+body {
+    text-align: center;
+}
+#Selection {
+    border: darkslateblue dashed 3px;
+    padding: 1rem;
+    margin: 1rem;
+}
+#Selection-date {
+    border: darkslateblue dashed 3px;
+    padding: 1rem;
+    margin: 1rem;
+}
+#Resultats {
+    border: darkorange dashed 3px;
+    padding: 1rem;
+    margin: 1rem;
+}
+ul {
+    list-style-type: none;
+}
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form>* {
+    margin: 1rem;
+}
+button {
+    padding: 0.3rem;
+    background-color: darkorange;
+    border: solid;
+    border-radius: 0.2rem;
+    color: white;
+    font-weight: bold;
+}

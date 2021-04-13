@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bulletin Météo</title>
+    <link rel="stylesheet" href="bulletin.css">
+</head>
+
+<h1> 🌞 Bienvenue dans la station météo de la promo 🌡 </h1>
+
+<body>
+<section id="Menu">
+    <ul>
+        <li><a id="titre1" href="#Titre1"> Dernière mesure </a></li>
+        <li><a id="titre2" href="#Titre2"> Top mesures </a></li>
+        <li><a id="titre3" href="#Titre3"> Tableaux des mesures </a></li>
+        <li><a id="titre4" href="#Titre4"> Graphiques des mesures </a></li>
+    </ul>
+</section>
+
+<section id="Selection">
+    <p> Quelle mesure vous intéresse ?</p>
+    <p> Type de mesure</p>
+    <select change="Menu deroulant" id="Deroulant">
+        <option value="SELECTION">-Faites votre séléction-</option>
+        <option value="TEMPERATURE">Température</option>
+        <option value="PRESSURE">Pression</option>
+        <option value="HUMIDITY">Humidité</option>
+        <option value="CO2">Equivalent CO2</option>
+        <option value="VOC">Composés organiques volatils</option>
+    </select>
+</section>
+
+<section id="Selection-date">
+</section>
+
+<section id="Resultats">
+</section>
+
+<script src="bulletin.js"></script>
+
+</body>
+
+</html>
