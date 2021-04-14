@@ -16,12 +16,12 @@ body {
     padding: 1rem;
     margin: 1rem;
 }
-#Resultats {
+#Resultats { /* #pour sélectionner des id, . pour sélectionner des classes*/
     border: darkorange dashed 3px;
     padding: 1rem;
     margin: 1rem;
 }
-ul {
+ul { /* permet de supprimer les puces des liens */
     list-style-type: none;
 }
 form {
@@ -29,7 +29,7 @@ form {
     justify-content: center;
     align-items: center;
 }
-form>* {
+form>* { /* permet de créer un espace entre chaque enfant de form */
     margin: 1rem;
 }
 button {
@@ -39,4 +39,7 @@ button {
     border-radius: 0.2rem;
     color: white;
     font-weight: bold;
+}
+table {
+
 }
