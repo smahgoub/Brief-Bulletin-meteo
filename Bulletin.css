@@ -41,5 +41,10 @@ button {
     font-weight: bold;
 }
 table {
-
+    border : grey solid;
+    margin: auto;
 }
+tbody{
+    background: antiquewhite;
+}
+
